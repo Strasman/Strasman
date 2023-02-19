@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Elad Strasman Portfolio Website</title>
+        <link rel="shortcut icon" type="image/logoz" href="img/logoz.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Raleway:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2ef02f93e8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <style>
+
+
+        </style>
+    </head>
+    <body id="top">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#top">Top</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#getting-around">Skills</a></li>
+                    <li><a href="#famous-quotes">Quotes</a></li>
+                    <li><a href="#social-media">Links</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- ********************-->
+        <div id="hero">
+            <div class="background-image"></div>
+            <h1>Welcome To Elad Strasman Portofilo</h1>
+            <h3>Brilliant Cs Student Looking For A Job</h3>
+         <!--    <a href="https://academy.zenva.com/?zva_src=zenva-homepage" class="btn" target="_blank"> More Zenva Courses</a> -->
+        </div>
+        <!-- ********************-->
+        <div id="about">
+            <h3 class="title">About Me</h3>
+            <div id="two-cols">
+                <div class="abot-img"><img src="img/profile.jpg" style="width: 12em; height: 14em;" alt="profile pic"></div>
+                <div class="about-bio">
+                    <p>A highly motivated 3nd year Computer Science.
+                        I am passionate about expanding my technical and coding skills through self-study and hands-on experience.
+                        Looking for an intern position and the right place to grow my career.
+                        </p>
+                </div>
+               
+                <p>&nbsp;</p>
+            </div>
+            <hr>
+        </div>
+        <!-- ********************-->
+        <div id="getting-around">
+            <h3 class="title">Abilities And Skills</h3>
+            <p>
+                Proficient in a range of programming languages, including Python, Java, C++, and HTML,
+                with experience developing a variety of projects.
+                Notable accomplishments include the development of a toy-collecting robot in the style of iRobot,
+                as well as the creation of a website game using Unity that simulate  messi path for winning the world cup.
+                For more information and to view code samples, please refer to my GitHub profile (link bellow).
+
+
+            </p>
+            <ul class="grid">
+                <li><i class="fa-brands fa-java"></i></i><h4>Java</h4></li>
+                <li><i class="fa-solid fa-c"></i><h4>C++</h4></li>
+                <li><i class="fa-brands fa-python"></i><h4>Python</h4></li>
+                <li><i class="fa-brands fa-html5"></i><h4>Python</h4></li>
+            </ul>
+        </div>
+        
+        <!-- ********************-->
+        <div id="famous-quotes">
+            <hr>
+            <h3 class="title">What Others Our Saying</h3>
+            <p><img src="img/dickens.jpg" alt="Charles Dickens" class="portrait-photos"></p>
+            <p class="quote">&ldquo;He looks like one who will make it someday or something. &rdquo;</p>
+            <p class="author">&mdash; My HighSchool Teacher</p>
+            <p><img src="img/franklin.jpg" alt="Benjamin Franklin" class="portrait-photos"></p>
+            <p class="quote">&ldquo;With that smile, nothing can hold you back&rdquo;</p>
+            <p class="author">&mdash; My Dentist</p>
+            <p><img src="img/leonardo.jpg" alt="Leonardo De Vinchi" class="portrait-photos"></p>
+            <p class="quote">&ldquo;Learning never exhausts the mind.&rdquo;</p>       
+            <p class="author">&mdash; Leonardo De Vinchi</p>
+            <hr>
+        </div>
+
+        <!-- ********************-->
+        <footer id="social-media">
+            <ul>
+                <li><a href="https://github.com/Strasman" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/elad-strasman" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a></li>
+                </ul>
+                <p>&copy; <script>document.write(new Date().getFullYear());</script> Created with UDEMY course.</p>
+                <p>&ldquo; Tell me and I forget, teach me and I may remember, involve me and I learn.&rdquo;  &mdash;Benjamin Franklin</p>
+        </footer>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('a[href^="#"]').on('click',function (e) {e.preventDefault();
+        
+                var target = this.hash;
+                var $target = $(target);
+        
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top-100
+                }, 900, 'swing', function () {
+                    window.location.hash = target-100;
+                });
+                   });
+        });
+        </script>
+    </body>
+</html>
