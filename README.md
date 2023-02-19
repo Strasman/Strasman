@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @Strasman
-- 👀 I’m interested in Ultimate Frisbee
-- 🌱 I’m currently learning DSC in BGU
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me elad.strasman@gmail.com
+- 👀 I'm interested in finding my first software development job.
+- 🌱 Third year computer science student at BGU
+- 📫 Contact: elad.strasman@gmail.com
 
 <!---
 Strasman/Strasman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
