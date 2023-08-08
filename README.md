@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Strasman
 - 👀 I'm interested in finding my first software development job.
-- 🌱 Third year computer science student at BGU
+- 🌱 Computer Science and Management Graduate at Ben-Gurion University
 - 📫 Contact: elad.strasman@gmail.com
 
 <!---
