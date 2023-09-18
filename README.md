@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Strasman
 - 👀 I'm a Software Engineer.
 - 🌱 Computer Science and Management Graduate at Ben-Gurion University
-- 📫 Contact: elad.strasman@gmail.com
+- 📫 Contact: elad.strasman@gmail.com | +972547696720
 
 <!---
 Strasman/Strasman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
